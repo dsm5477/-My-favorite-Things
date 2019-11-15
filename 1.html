@@ -4,41 +4,80 @@
     <meta charset="utf-8">
     <title>Marimong</title>
     <style media="screen">
-h1{text-align: center;}
-      h2{color: Plum;
-font-size: 50px;
-      }
-    a{color: PaleVioletRed;
-text-decoration: none;
-
+    body{
+      background-color: #d2becf;
     }
-    .Marimong {color:blue;}
+    h1{
+      color: rgba(34, 45, 137, 0.76);
+      font-size:40px;
+      text-align: center;
+      border-bottom: 4px solid gray;
+      margin:0px;
+      padding:20px;
+    }
+    h2{
+      display: block;
+      margin: 10px;
+    }
+
+    a{
+      color: rgb(52, 73, 94);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    ol{
+      font-size: 20px;
+      padding:20px;
+      margin: 0px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 160px 1fr;
+      }
+    .marimari{
+      width: 500px;
+      height: auto;
+    }
+    .navigation{
+      padding-left: 15px;
+      border-right: 2px solid gray;
+    }
+    .article{
+      padding: 20px;
+    }
     </style>
   </head>
   <body>
-    <h1><a href="index.html">My Favorite Things</a></h1>
-    <ol>
-      <li><a href="1.html" class="Marimong" style="color:skyblue">Marimong</a></li>
-      <li><a href="2.html">Youtube</a></li>
-      <li><a href="3.html">Beverage</a></li>
-      </ol>
-<h2>Marimong</h2>
-<p>#마리몽 #Marimong</p>
-<p>꿈속을 몽실몽실 떠돌아다니는 요정.</p>
-<p>악몽의 악한 기운을 먹으며 행복한 꿈을 만든다.</p>
-<br>
-<p>생김새 : 다양한 색상의 보들보들한 털로 덮힌 동그란 구모양,</p>
-<p>수줍음이 많아 발그레한 볼,</p>
-<p>우주를 닮은 작고 동그란 눈을 가지고 있다.</p>
-<br>
-<p>성격 : 불에 약하지만 따뜻한 온기를 좋아해</p>
-<p>손으로 쓰다듬어주는 것을 좋아하며,</p>
-<p>얘기 듣는 것도 좋아해</p>
-<p>말 못할 고민을 털어내보는 것도 좋다.</p>
-<br>
-<p>수명 : 달걀모양의 작은 알에서 태어나,</p>
-<p>죽을 때가 되면 조용히 자취를 감춘다.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jYZ-1HrRu14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<img src="marimong_together.jpg" alt="">
+    <h1><a href="index.html">MY FAVORITE THINGS</a></h1>
+    <div class="grid">
+      <div class="navigation">
+        <ol>
+          <li><a href="1.html">Marimong</a></li>
+          <li><a href="2.html">Youtube</a></li>
+          <li><a href="3.html">Beverage</a></li>
+          </ol>
+      </div>
+      <div class="article">
+        <h2>Marimong</h2>
+        <p>#마리몽 #Marimong</p>
+        <p>꿈속을 몽실몽실 떠돌아다니는 요정.</p>
+        <p>악몽의 악한 기운을 먹으며 행복한 꿈을 만든다.</p>
+        <br>
+        <p>생김새 : 다양한 색상의 보들보들한 털로 덮힌 동그란 구모양,</p>
+        <p>수줍음이 많아 발그레한 볼,</p>
+        <p>우주를 닮은 작고 동그란 눈을 가지고 있다.</p>
+        <br>
+        <p>성격 : 불에 약하지만 따뜻한 온기를 좋아해</p>
+        <p>손으로 쓰다듬어주는 것을 좋아하며,</p>
+        <p>얘기 듣는 것도 좋아해</p>
+        <p>말 못할 고민을 털어내보는 것도 좋다.</p>
+        <br>
+        <p>수명 : 달걀모양의 작은 알에서 태어나,</p>
+        <p>죽을 때가 되면 조용히 자취를 감춘다.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jYZ-1HrRu14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img class="marimari" src="marimong_together.jpg" alt="">
+      </div>
+    </div>
+
   </body>
 </html>
