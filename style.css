@@ -1,0 +1,19 @@
+  h1{
+  color: rgba(34, 45, 137, 0.76);
+  font-size:40px;
+  text-align: center;
+  border-bottom: 4px solid gray;
+  margin:0px;
+  padding:20px;
+  }
+  body{
+  background-color: #d2becf;
+  }
+  a{
+    color: rgb(52, 73, 94);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .maincolor{
+    color: rgba(34, 45, 137, 0.76)
+  }
