@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Marimong</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS</a></h1>
-    <ol>
-      <li><a href="1-1.html">Marimong</a></li>
-      <li><a href="2-1.html">Youtube</a></li>
-      <li><a href="3-1.html">Beverage</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <title>Marimong</title>
+  <link rel="stylesheet" href="style.css">
+  <style media="screen">
+    .frame {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    #top_content {
+      height: 50%;
+      width: auto;
+    }
+
+    #top_content_left {
+      width: 50%;
+      float: left;
+      background-color: rgb(126, 103, 136);
+      color: white;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    #top_content_right {
+      width: 50%;
+      float: right;
+      text-align: center;
+      padding-top: 25px;
+    }
+  #column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  }
+  #bottom_picture{
+    clear: both;
+  display: table;
+  }
+
+  </style>
+</head>
+
+<body>
+  <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS</a></h1>
+  <div class="frame">
+    <div class="navigation">
+      <ol>
+        <li><a href="1-1.html">Marimong</a></li>
+        <li><a href="2-1.html">Youtube</a></li>
+        <li><a href="3-1.html">Beverage</a></li>
       </ol>
-  </body>
+    </div>
+
+    <div class="content">
+
+
+      <div id="top_content">
+        <div id="top_content_left">
+          <h2>Marimong</h2>
+          <p>#마리몽 #Marimong</p>
+          <p>마리몽이란?</p>
+          <p>프로듀스 X 101에 출연했던 이세진이 직접 제작한 인형을 말한다.</p>
+          <p>마리몽의 수익금 10%는 유기동물 보호단체에 기부되기도 한다.</p>
+          <p> 최근에는 스파브랜드 SPAO와 콜라보하여 다양한 제품이 판매되고 있다.</p>
+          <p>마리몽의 특징</p>
+          <ul>
+            <li>다양한 색상의 보들보들한 털로 덮힌 구모양</li>
+            <li>우주를 닮은 작고 동그란 눈</li>
+            <li>색상별로 다른 향기</li>
+          </ul>
+        </div>
+        <div id="top_content_right">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jYZ-1HrRu14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+</body>
+
 </html>

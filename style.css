@@ -1,6 +1,5 @@
   h1{
-  color: rgba(34, 45, 137, 0.76);
-  font-size:40px;
+  font-size:50px;
   text-align: center;
   border-bottom: 4px solid gray;
   margin:0px;
@@ -8,6 +7,7 @@
   }
   body{
   background-color: #d2becf;
+  margin: 0px
   }
   a{
     color: rgb(52, 73, 94);
@@ -16,4 +16,11 @@
   }
   .maincolor{
     color: rgba(34, 45, 137, 0.76)
+  }
+  .navigation{
+    font-size: 21px;
+    border-right: 2px solid gray;
+  }
+  .content{
+    padding-left: 20px;
   }
