@@ -24,3 +24,7 @@
   .content{
     padding-left: 20px;
   }
+  .frame {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+  }
