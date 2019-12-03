@@ -3,14 +3,164 @@
   <head>
     <meta charset="utf-8">
     <title>Beverage</title>
+    <link href="http://fonts.googleapis.com/earlyaccess/hanna.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/nanumpenscript.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      .recommend_table td{
+        width: 349px;
+        padding: 10px;
+        vertical-align: top;
+        border-right: 2px solid rgb(94, 94, 94);
+        border-bottom: 2px solid rgb(94, 94, 94);
+      }
+      .recommend_table th{
+        width: 147px;
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        border-right: 2px solid rgb(94, 94, 94);
+        border-bottom: 2px solid rgb(94, 94, 94);
+        background-color: rgb(154, 159, 184);
+      }
+      .recommend_table{
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        line-height: 1.5;
+        border-top: 2px solid rgb(94, 94, 94);
+        border-left: 8px solid rgb(64, 107, 152);
+        font-family: 'Hanna', sans-serif;
+        font-size: 20px;
+      }
+      .number1-1{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 340px;
+      }
+      .number2{
+        display: grid;
+        grid-template-columns: 400px 1fr 1fr;
+        margin-top: 30px;
+      }
+      .number2-1{
+        text-align: center;
+      }
+      .number2-2{
+        text-align: center;
+        padding-top: 20px;
+      }
+      .number2-3{
+        text-align: center;
+      }
+      .palgongtea_pic{
+        width: 300px;
+        height: 300px;
+      }
+      .palgongtea_pic2{
+        width: 400px;
+        height: auto;
+      }
+      #subtitle{
+       color: rgb(66, 96, 136);
+       font-size: 40px;
+       font-family: 'Nanum Pen Script', cursive;
+      }
+
+
+    </style>
   </head>
   <body>
-    <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS</a></h1>
-    <ol>
-      <li><a href="1-1.html">Marimong</a></li>
-      <li><a href="2-1.html">Youtube</a></li>
-      <li><a href="3-1.html">Beverage</a></li>
-      </ol>
+
+   <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS <span id="subtitle">This is my life</span></a></h1>
+
+    <div class="frame">
+
+      <div class="navigation">
+        <ol>
+          <li><a href="1-1.html">Marimong</a></li>
+          <li><a href="2-1.html">Youtube</a></li>
+          <li><a href="3-1.html">Beverage</a></li>
+          </ol>
+      </div>
+
+      <div class="content">
+
+        <div class="number1-1">
+          <h2 id="textcolor">Beverage</h2>
+          <p id="textcolor2">#Beverage #Palgong Tea #팔공티</p>
+          <p>1994년 대만 까오슝 지역에서 시작된 밀크티 브랜드이다.</p>
+          <p>깊고 진한 맛의 원차를 원료로 만든 오리지널티, 밀크티, 후르츠티 제품과</p>
+          <p>커피, 에이드, 스무디 등 다양한 음료를 맛볼 수 있는 곳이다.</p>
+          <p>기본 밀크티 기준 칼로리는 약 300kcal이다.</p>
+          <p>가성비 좋은 버블티로 유명하며, 밀크티를 먹지 않는 사람이라면 스무디도 추천한다.</p>
+          <p>타피오카 펄의 크기는 타 브랜드에 비교해 작은 편이고 가장 딱딱한 편에 속한다.</p>
+
+        </div>
+
+        <div class="number2">
+
+
+          <div class="number2-1">
+          <img class="palgongtea_pic"src="palgongtea_picture.jpg" alt="">
+          </div>
+
+          <div class="number2-2">
+          <img class="palgongtea_pic2"src="IMG_palgong.jpg" alt="">
+          </div>
+
+
+          <div class="number2-3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/foyHvBL5kKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+
+
+        </div>
+
+        <div class="number3">
+          <table class="recommend_table">
+          <tr>
+            <th scope="row">추천메뉴</th>
+            <td><span style="color:#B22222;">My pick!</span> 얼그레이 밀크티 (2000원)</td>
+          </tr>
+          <tr>
+            <th scope="row">얼음</th>
+            <td>기본 (얼음 적당히 있어야 맛있어요)</td>
+          </tr>
+          <tr>
+            <th scope="row">당도</th>
+            <td>50 (50이상은 너무 달아요)</td>
+          </tr>
+          <tr>
+            <th scope="row">펄</th>
+            <td>펄 조금 (개인취향)</td>
+          </tr>
+          <tr>
+            <th scope="row">그 외 추가</th>
+            <td>X (기본이 제일 맛있어요)</td>
+          </tr>
+          </table>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
   </body>
 </html>

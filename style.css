@@ -1,9 +1,18 @@
+  @media (max-width:800px) {
+    .navigation{
+      border-right: none;
+    }
+    h1{
+      border-bottom: none;
+    }
+  }
   h1{
-  font-size:50px;
+  font-size:70px;
   text-align: center;
   border-bottom: 4px solid gray;
   margin:0px;
   padding:20px;
+  font-family: fantasy;
   }
   body{
   background-color: #d2becf;
@@ -14,12 +23,17 @@
     text-decoration: none;
     font-weight: bold;
   }
+  li{
+    padding-top: 10px;
+  }
   .maincolor{
-    color: rgba(34, 45, 137, 0.76)
+    color: rgba(43, 9, 89, 0.8)
   }
   .navigation{
-    font-size: 21px;
+    font-size: 30px;
     border-right: 2px solid gray;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
   }
   .content{
     padding-left: 20px;
@@ -27,4 +41,23 @@
   .frame {
     display: grid;
     grid-template-columns: 160px 1fr;
+  }
+  .number1-1{
+    background-color: rgb(126, 103, 136);
+    color: rgb(251, 236, 249);
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Hanna', sans-serif;
+    font-size: 20px;
+  }
+  #subtitle{
+   color: rgb(66, 96, 136);
+   font-size: 40px;
+   font-family: 'Nanum Pen Script', cursive;
+  }
+  #textcolor{
+    color: white;
+  }
+  #textcolor2{
+    color: rgb(171, 197, 241);
   }

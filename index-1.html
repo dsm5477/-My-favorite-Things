@@ -3,14 +3,172 @@
   <head>
     <meta charset="utf-8">
     <title>My First web</title>
+    <link href="http://fonts.googleapis.com/earlyaccess/hanna.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/nanumpenscript.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      .content{
+        display: grid;
+        grid-template-columns: 600px 300px 600px;
+        font-family: 'Hanna', sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+      .yellowsejin{
+        width: 400px;
+        height: auto;
+      }
+      .red{
+        width: 170px;
+        height:auto;
+      }
+      .subsubtitle{
+        font-family: 'Hanna', sans-serif;
+        font-size: 40px;
+      }
+      .palgongteapic{
+        width: 210px;
+        height: auto;
+      }
+      .number1-1{
+        background-color: rgb(126, 103, 136);
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .number1-2{
+        background-color: rgb(126, 103, 136);
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 30px;
+      }
+      .number1-3{
+        background-color: rgb(126, 103, 136);
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      .number2{
+        margin-top: 160px;
+      }
+      .number2-1{
+        margin-bottom: 170px;
+      }
+      .number2-2{
+        margin-bottom: 170px;
+      }
+      .number3-1{
+        padding-top: 40px;
+      }
+      .number3-2{
+        padding-top: 60px;
+      }
+      .number3-3{
+        padding-top: 70px;
+      }
+    </style>
   </head>
   <body>
-    <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS</a></h1>
-    <ol>
-      <li><a href="1-1.html">Marimong</a></li>
-      <li><a href="2-1.html">Youtube</a></li>
-      <li><a href="3-1.html">Beverage</a></li>
-      </ol>
+    <h1><a class="maincolor" href="index-1.html">MY FAVORITE THINGS <span id="subtitle">This is my life</span></a></h1>
+
+    <div class="frame">
+
+      <div class="navigation">
+        <ol>
+          <li><a href="1-1.html">Marimong</a></li>
+          <li><a href="2-1.html">Youtube</a></li>
+          <li><a href="3-1.html">Beverage</a></li>
+          </ol>
+      </div>
+
+      <div class="content">
+
+        <div class="number1">
+          <h2 class="subsubtitle">은혜의 Web을 전부 둘러본 후 Quiz!</h2>
+          <div class="number1-1">
+            <p>Q. 마리몽은 누가 만든 인형일까요?</p>
+            <p>① 이세진</p>
+            <p>② 김민규</p>
+            <p>③ 유튜버 세림</p>
+            <p>④ 스스로 태어남</p>
+          </div>
+
+          <div class="number1-2">
+            <p>Q. 유튜버 세림의 컨텐츠 중 해당하지 않는 것은 무엇일까요?</p>
+            <p>① 유럽여행 vlog</p>
+            <p>② 일상 vlog</p>
+            <p>③ 다이어리 꾸미기</p>
+            <p>④ 공부 vlog</p>
+          </div>
+
+          <div class="number1-3">
+            <p>Q. 은혜가 가장 좋아하는 팔공티의 메뉴는 무엇일까요?</p>
+            <p>① 까오슝 밀크티</p>
+            <p>② 딸기 스무디</p>
+            <p>③ 얼그레이 밀크티</p>
+            <p>④ 아이스아메리카노</p>
+          </div>
+
+        </div>
+
+        <div class="number2">
+
+          <div class="number2-1">
+            <img class="red"src="redmark.png" alt="">
+          </div>
+
+          <div class="number2-2">
+            <img class="red"src="redmark.png" alt="">
+          </div>
+
+          <div class="number2-3">
+            <img class="red"src="redmark.png" alt="">
+          </div>
+
+        </div>
+
+        <div class="number3">
+
+          <div class="number3-1">
+            <p>A. 정답은 이세진!</p>
+            <img class="yellowsejin" src="16.jpg" alt="">
+          </div>
+
+          <div class="number3-2">
+            <p>A. 정답은 공부 vlog 입니다!</p>
+            <p>(TMI : 공부 vlog는 Anna라는 유튜버 추천!</p>
+            <p>열심히 사는 모습을 보면서 자극 받아요)</p>
+          </div>
+
+          <div class="number3-3">
+            <img class="palgongteapic"src="palgongtea_inin.png" alt="">
+            <p>A. 정답은 얼그레이 밀크티였습니다!</p>
+            <p>(TMI : 같은 메뉴를 30번정도 먹음)</p>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
   </body>
 </html>
