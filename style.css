@@ -1,11 +1,4 @@
-  @media (max-width:800px) {
-    .navigation{
-      border-right: none;
-    }
-    h1{
-      border-bottom: none;
-    }
-  }
+
   h1{
   font-size:70px;
   text-align: center;
