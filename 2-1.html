@@ -11,7 +11,7 @@
     .content {
       padding: 20px;
       display: grid;
-      grid-template-columns: 800px 1fr;
+      grid-template-columns: 50% 1fr;
     }
 
     .number1-1 {
@@ -41,16 +41,58 @@
       text-align: center;
     }
 
-    #serim {
+    #serim-1 {
       width: 625px;
       height: auto;
     }
-
+    #serim-2 {
+      width: 625px;
+      height: auto;
+    }
+    #serim-3 {
+      width: 625px;
+      height: auto;
+    }
     #bold {
       font-size: 30px;
       font-weight: bold;
       margin: 20px;
       color: white;
+    }
+    @media(max-width:800px){
+      .frame{
+        display: block;
+      }
+      .navigation{
+        border-right: none;
+      }
+      .number1-2-1{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 15px;
+      }
+      h1{
+        border-bottom: none;
+      }
+      #serimvideo{
+        width: 360px;
+        height: 230px;
+      }
+      #serim-1{
+        width: 330px;
+        height: auto;
+        padding-top: 20px;
+      }
+      #serim-2{
+        width: 330px;
+        height: auto;
+        padding-top: 120px;
+      }
+      #serim-3{
+        width: 330px;
+        height: auto;
+        padding-top: 100px;
+      }
     }
   </style>
 </head>
@@ -92,7 +134,7 @@
         </div>
 
         <div class="number1-2">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/AED-lWJhVnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="serimvideo"width="560" height="315" src="https://www.youtube.com/embed/AED-lWJhVnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <div class="number1-2-1">
               <p>세림의 가장 대표적 컨텐츠 중 하나!</p>
@@ -111,9 +153,9 @@
 
       <div class="number2">
 
-        <img id="serim" src="serim_pinkdiary.jpg" alt="">
-        <img id="serim" src="serim_eating.jpg" alt="">
-        <img id="serim" src="serim_europe.jpg" alt="">
+        <img id="serim-1" src="serim_pinkdiary.jpg" alt="">
+        <img id="serim-2" src="serim_eating.jpg" alt="">
+        <img id="serim-3" src="serim_europe.jpg" alt="">
 
       </div>
 

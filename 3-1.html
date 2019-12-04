@@ -45,7 +45,7 @@
       }
       .number2{
         display: grid;
-        grid-template-columns: 400px 1fr 1fr;
+        grid-template-columns: 20% 30% 1fr;
         margin-top: 30px;
       }
       .number2-1{
@@ -63,13 +63,40 @@
         height: 300px;
       }
       .palgongtea_pic2{
-        width: 400px;
+        width: 430px;
         height: auto;
       }
       #subtitle{
        color: rgb(66, 96, 136);
        font-size: 40px;
        font-family: 'Nanum Pen Script', cursive;
+      }
+      @media(max-width:800px){
+        .frame{
+          display: block;
+        }
+        .navigation{
+          border-right: none;
+        }
+        h1{
+          border-bottom: none;
+        }
+        .number1-1{
+          margin-left: 150px;
+          margin-right: 0px;
+        }
+        .palgongtea_pic{
+          width: 150px;
+          height: auto;
+        }
+        .palgongtea_pic2{
+          width: 170px;
+          height: auto;
+        }
+        #palgongvideo{
+          width: 350px;
+          height: 180px;
+        }
       }
 
 
@@ -116,7 +143,7 @@
 
 
           <div class="number2-3">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/foyHvBL5kKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="palgongvideo"width="560" height="315" src="https://www.youtube.com/embed/foyHvBL5kKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
 

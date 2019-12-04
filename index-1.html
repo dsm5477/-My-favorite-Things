@@ -9,7 +9,7 @@
     <style media="screen">
       .content{
         display: grid;
-        grid-template-columns: 600px 300px 600px;
+        grid-template-columns: 50% 30% 1fr;
         font-family: 'Hanna', sans-serif;
         font-size: 20px;
         text-align: center;
@@ -80,6 +80,31 @@
       }
       .number3-3{
         padding-top: 70px;
+      }
+      @media(max-width:800px){
+        .frame{
+          display: block;
+        }
+        .navigation{
+          border-right: none;
+        }
+        h1{
+          border-bottom: none;
+        }
+        .subsubtitle{
+          font-size: 30px;
+          text-align: left;
+        }
+        .number1-1{
+          margin-left: 5px;
+        }
+        .number1-2{
+          margin-left: 5px;
+        }
+        .number1-3{
+          margin-left: 5px;
+        }
+
       }
     </style>
   </head>
